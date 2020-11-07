@@ -100,16 +100,16 @@ Preferences->General->Network Proxy->Settings... (Настройки - Пара�
 
 3. Включить режим Proxy в меню расширения
 
-![proxy enable](/images/chrome-socks-proxy.png)
+![proxy enable](images/chrome-socks-proxy.PNG)
 
 
 #### Yandex.Browser
 Не имеет собственных настроек прокси - использует системные.
 
-![Yandex](images/yandex-proxy-win.png)
+![Yandex](images/yandex-proxy-win.PNG)
 
 В системных настройках вписываем в строку "Адрес" http://socks=localhost
-![Yandex](images/win10-proxy.png)
+![Yandex](images/win10-proxy.PNG)
 
 
 #### Microsoft Internet Explorer
@@ -117,18 +117,18 @@ Preferences->General->Network Proxy->Settings... (Настройки - Пара�
 
 1. Открываем меню "Сервис" - "Свойства браузера"
 2. Переходим на вкладку "Подключения"
-![1](images/win-lan-stts-1.png)
+![1](images/win-lan-stts-1.PNG)
 3. Открываем "Настройка сети", ставим "Использовать прокси-сервер". Нажимаем "Дополнительно"
-![1](images/win-lan-stts-2.png)
+![1](images/win-lan-stts-2.PNG)
 4. Устанавливем адрес для протокола Socks5
-![1](images/win-lan-stts-3.png)
+![1](images/win-lan-stts-3.PNG)
 5. Сохраняем все настройки
 
 💡 Примечание: на Windows вы не можете использовать Chrome, Yandex.Browser и Internet Explorer для разных целей - они либо вместе без прокси, либо вместе с прокси т.е используют систмные настройки прокси-сервера
 
 ## Проверка
 
-Откройте [YARN UI](http://spark-ds-master1.newprolab.com:8088/cluster/scheduler)
+Откройте [YARN UI](http://bd-master.newprolab.com:8088/cluster)
 
 Страница выглядит так:
-![yarn](images/yarn-ui.png)
+![yarn](images/yarn-ui.PNG)
